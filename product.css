@@ -1,0 +1,112 @@
+.product-dv{
+    display: flex;
+    padding: 10px;   
+    /* background-image: linear-gradient(to right top, #94f6b6, #7ff6a3, #6af68d, #54f574, #3df458, #3df458, #3df458, #3df458, #54f574, #6af68d, #7ff6a3, #94f6b6); */
+    /* background: linear-gradient(0deg, rgba(186,189,201,1) 0%, rgba(130,143,207,1) 50%, rgba(23,124,210,1) 100%); */
+}
+.pro-img-1{
+    padding: 10px;
+   
+}
+.color{
+    color: aliceblue;
+}
+.pro-threimg{
+    display: flex;
+    gap: 10px;
+    margin-top: -130px;
+    margin-left: 25px;
+    /* background-image: linear-gradient(to right top, #94f6b6, #7ff6a3, #6af68d, #54f574, #3df458, #3df458, #3df458, #3df458, #54f574, #6af68d, #7ff6a3, #94f6b6); */
+
+    
+
+}
+.navbar{
+    /* background-image: linear-gradient(to right top, #94f6b6, #7ff6a3, #6af68d, #54f574, #3df458, #3df458, #3df458, #3df458, #54f574, #6af68d, #7ff6a3, #94f6b6); */
+    background: linear-gradient(0deg, rgba(186,189,201,1) 0%, rgba(130,143,207,1) 50%, rgba(23,124,210,1) 100%);
+}
+
+
+.proimg{
+    width: 180px;
+    padding: 0px;
+    border-radius: 10px;
+
+}
+    .pro-tit{
+      margin-left:-220px;
+      padding: 50px;
+      color: black;
+    }
+    .rr{
+        display: inline-flex;
+       margin-left: 10px;
+    }.pr-hr{
+        width: 600px;
+    }
+    .pro-tit-2{
+        display: flex;
+        justify-content: first baseline;
+        gap: 200px;
+
+    }
+    .pro-til-ch{
+        padding: 10px;
+    }
+    .pro-btn{
+        width: 200px;
+        padding: 10px;
+
+    }
+    .pro-p2{
+        text-align: left;
+    }
+    .pro-main-3{
+        display: flex;
+        justify-content: center;
+
+    }
+    .pro-crd{
+        display: flex;
+        gap: 30px;
+        text-transform: capitalize;
+
+       
+        
+    }
+    .proimg-3{
+        width: 200px;  
+        padding: 0%; 
+        ;
+        border-radius: 10px;
+     }
+     .pro-scthre-img{
+        justify-content: center;
+        display: flex;
+        gap: 50px;
+        
+     }
+     .review{
+        display: flex;
+        gap: 20px;
+        
+     }
+     .img-rw{
+        width: 60px;
+       
+        border-radius: 50%;
+     }
+     .text-rw{
+        line-height: 10px;
+        margin-top: 7px;
+     }
+     .foot{
+        /* background-image: linear-gradient(to right top, #94f6b6, #7ff6a3, #6af68d, #54f574, #3df458, #3df458, #3df458, #3df458, #54f574, #6af68d, #7ff6a3, #94f6b6); */
+        background: linear-gradient(0deg, rgba(186,189,201,1) 0%, rgba(130,143,207,1) 50%, rgba(23,124,210,1) 100%);
+    }
+     .foot-icon{
+        height: 30px;
+        width: 30px;
+     }
+     
+     

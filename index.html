@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="/css/style1.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="header">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <img src="images/cart.png" id="icon">
+                <a class="navbar-brand" href="index.html">GOAL INN</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarScroll"
+                    aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <form class="d-flex">
+                    <input class="form-control mr-2" type="search" placeholder="Search" aria-label="Search">
+                </form>
+                <div class="collapse navbar-collapse" id="navbarScroll">
+                    <ul class="navbar-nav mr-auto my-2 my-lg-0 navbar-nav-scroll" style="max-height: 100px; gap: 3   0px;">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="">about</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="shoppingcard.html">shop</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">help</a>
+                        </li>
+                    </ul><span>
+                        <button class="btn btn-outline-success your-cart" type="submit" ><img src="images/yourcart.png"
+                                id="yourcart">Your Cart</button>
+                    </span>
+
+                </div>
+            </nav>
+        </div>
+
+
+        <div class="second">
+            <br><br>
+            <h1 class="tagline">THE COMPLETE FOOTBALL STORE</h1>
+            <br>
+            <br>
+
+            <!-- <hr class="rule"> -->
+            <div class="section">
+                <!-- container -->
+                <div class="container">
+                    <!-- row -->
+                    <div class="row">
+                        <!-- shop -->
+                        <div class="col-md-4 col-xs-6 one-image">
+                            <div class="shop  one-image" id="items">
+                                <div class="shop-img">
+                                    <img src="./images/brazuka.jpg" class="item1">
+                                </div>
+                                <div class="shop-body">
+                                    <h3>football<br>Collection</h3>
+                                    <a href="#" class="cta-btn">Shop now <i class="fa fa-arrow-circle-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- /shop -->
+
+                        <!-- shop -->
+                        <div class="col-md-4 col-xs-6">
+                            <div class="shop  one-image" id="items">
+                                <div class="shop-img">
+                                    <img src="./images/boots.avif" class="item1">
+                                </div>
+                                <div class="shop-body">
+                                    <h3>boots<br>Collection</h3>
+                                    <a href="#" class="cta-btn">Shop now <i class="fa fa-arrow-circle-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- /shop -->
+
+                        <!-- shop -->
+                        <div class="col-md-4 col-xs-6 one-image">
+                            <div class="shop  one-image" id="items">
+                                <div class="shop-img ">
+                                    <img src="./images/jerseynw.webp" class="item1">
+                                </div>
+                                <div class="shop-body">
+                                    <h3>jersey<br>Collection</h3>
+                                    <a href="#" class="cta-btn">Shop now <i class="fa fa-arrow-circle-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- /shop -->
+                    </div>
+                    <!-- /row -->
+                </div>
+                <!-- /container -->
+            </div>
+        </div>
+
+
+
+        <div class="third">
+            <div class="feature">
+                <h1>FeaturedProducts</h1>
+            </div>
+            <main class=" p-5 main-bg-col" >
+                <div class="container-fluid  ">
+                  <div class="main-content newcar">
+                   
+                    <div class="container mt-3 pt-2 ">
+                      <div id="carouselExampleIndicators" class="carousel slide " data-ride="carousel">
+            
+                        <div class="carousel-inner  ">
+                          <div class="carousel-item active">
+                            <div class="card-wraper  newone">
+                              <div class="card w-75 crd-sld  newtwo ">
+                                <img class="card-img-top img-slid-bg" src="/images/puma.jpg" alt="Card image cap">
+                                <div class="card-body sid-crd car-foot">
+                                  <div> <p class="card-text"> puma boots</p></div>
+                                 <div><p class="card-text">$ 5000</p></div>
+                                </div>
+                              </div>
+                              <div class="card w-75 crd-sld  newtwo">
+                                <img class="card-img-top img-slid-bg" src="/images/nikeboot.avif" alt="Card image cap">
+                                <div class="card-body sid-crd car-foot">
+                                 <div> <p class="card-text"> nike boots</p></div>
+                                 <div><p class="card-text">$ 5000</p></div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="carousel-item ">
+                            <div class="card-wraper  newone">
+                              <div class="card w-75 crd-sld  newtwo">
+                                <img class="card-img-top img-slid-bg" src="/images/Predator.avif" alt="Card image cap">
+                                <div class="card-body sid-crd car-foot">
+                                  <div> <p class="card-text"> adidas predator</p></div>
+                                  <div><p class="card-text">$ 5000</p></div>
+                                </div>
+                              </div>
+                              <div class="card w-75 crd-sld  newtwo">
+                                <img class="card-img-top img-slid-bg" src="/images/puma.jpg" alt="Card image cap">
+                                <div class="card-body sid-crd car-foot">
+                                  <div> <p class="card-text"> puma boots</p></div>
+                                 <div><p class="card-text">$ 5000</p></div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <button class="carousel-control-prev" type="button" data-target="#carouselExampleIndicators" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                          </button>
+                          <button class="carousel-control-next" type="button" data-target="#carouselExampleIndicators" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                          </button>
+                          
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+              </main>
+
+            </div>
+        
+
+        <div class="fourth">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <br>
+                        <div class="news">
+                            <h1 class="letter">Subscribe</h1>
+                            <p>subscibe with email.</p>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <br>
+                        <div class="news1">
+                            <input type="text" id="address" placeholder="email address"><span><button
+                                    id="subscribe">subscribe</button></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="fifth">
+            <h2 class="arrival">NEW ARRIVALS </h2>
+            <div class="cover text-center d-flex mx-auto flex-column">
+
+                <section class="bg-secondary1 pt-5 mb-5" name="Products-list">
+                    <div class="row d-table d-table-row d-table-cell">
+                        <table class="offer">
+                            <tr>
+                                <td rowspan="2">
+
+                                    <div class="card first">
+                                        <a href=" #" class="link-dark">
+
+                                            <img src="/images/brazuka.jpg" class="img-fluids" alt="" width="450px"
+                                                height="250px">
+                                            <div class="card-body">
+                                                <span>
+                                                    <p class="card-text lead" id="bold"> ADIDAS BRAZUKA <br>size-5</p>
+                                                    <p class="card-text lead">MRP: <strike>₹1160&nbsp;</strike><b>
+                                                            37%off </b>&nbsp;₹850</p>
+                                                    <b>5.0</b>
+                                                    <span class="fa fa-star checked"></span>
+                                                    <span class="fa fa-star checked"></span>
+                                                    <span class="fa fa-star checked"></span>
+                                                    <span class="fa fa-star checked"></span>
+                                                    <span class="fa fa-star checked"></span>&emsp;
+                                                </span>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="card first">
+                                        <a href=" #" class="link-dark">
+                                            <img src="/images/Predator.avif" class="img-fluid" alt="" width="450px"
+                                                height="250px">
+                                            <div class="card-body">
+                                                <p class="card-text lead" id="bold">ADIDAS PREDATOR</p>
+                                                <p class="card-text lead">MRP: <strike>₹1899&nbsp;</strike><b> 53%off
+                                                    </b>&nbsp;₹999</p>
+                                                <b>3.5</b>
+                                                <span class="fa fa-star checked"></span>
+                                                <span class="fa fa-star checked"></span>
+                                                <span class="fa fa-star checked"></span>
+                                                <span class="fa fa-star unchecked"></span>
+                                                <span class="fa fa-star unchecked"></span>&emsp;
+
+                                            </div>
+                                        </a>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="card first">
+                                        <a href="product-plum.html" class="link-dark">
+                                            <img src="/images/nikeboot.avif" class="img-fluid" alt="" width="450px"
+                                                height="250px">
+                                            <div class="card-body">
+
+                                                <p class="card-text lead" id="bold">NIKE MERCURIAL X
+                                                </p>
+
+                                                <p class="card-text lead">MRP:<strike>₹78,399&nbsp;</strike><b> 15%off
+                                                    </b>&nbsp;₹68,999</p>
+                                                <b>4.0</b>
+                                                <span class="fa fa-star checked"></span>
+                                                <span class="fa fa-star checked"></span>
+                                                <span class="fa fa-star checked"></span>
+                                                <span class="fa fa-star checked"></span>
+                                                <span class="fa fa-star unchecked"></span>&emsp;
+
+                                            </div>
+                                        </a>
+                                    </div>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>
+                                    <div class="card first">
+                                        <a href=" #" class="link-dark">
+
+                                            <img src="/images/puma.jpg" class="img-fluid" alt="" width="450px"
+                                                height="250px">
+                                            <div class="card-body">
+
+                                                <p class="card-text lead" id="bold">PUMA ULTRA ULTIMATE</p>
+
+                                                <p class="card-text lead"> MRP:<strike>₹2300&nbsp;</strike><b> 29%off
+                                                    </b>&nbsp;₹1899</p>
+                                                <b>4.5</b>
+                                                <span class="fa fa-star checked"></span>
+                                                <span class="fa fa-star checked"></span>
+                                                <span class="fa fa-star checked"></span>
+                                                <span class="fa fa-star checked"></span>
+                                                <span class="fa fa-star unchecked"></span>&emsp;
+
+                                            </div>
+                                        </a>
+                                    </div>
+                                </td>
+
+                                <td>
+                                    <div class="card first">
+                                        <a href=" #" class="link-dark">
+
+                                            <img src="/images/speedportal.jpg" class="img-fluid" alt="" width="450px"
+                                                height="250px">
+                                            <div class="card-body">
+
+                                                <p class="card-text lead" id="bold">ADIDAS SPEEDPORTAL X</p>
+
+                                                <p class="card-text lead">MRP: <strike>₹999&nbsp;</strike><b> 20%off
+                                                    </b>&nbsp;₹699 </p>
+                                                <b>4.0</b>
+                                                <span class="fa fa-star checked"></span>
+                                                <span class="fa fa-star checked"></span>
+                                                <span class="fa fa-star checked"></span>
+                                                <span class="fa fa-star checked"></span>
+                                                <span class="fa fa-star unchecked"></span>&emsp;
+
+                                            </div>
+                                        </a>
+                                    </div>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </section>
+            </div>
+            
+
+
+
+           
+        </div>
+        <div class="sixth">
+           <h1>ABOUT US</h1>
+           <P>GOAL INN is a football item based company.Football boots are an essential part of a player's equipment. They are designed to provide traction on the field and grip the ground in order to avoid slipping and sliding</P>
+
+           <footer >
+            <div class="container-fluid footer-sec">
+              <div class="p-5 med-ftr">
+                <h3>GOAL INN</h3>
+                <div> <img src="/images/cart.png" alt="" class="foot-img ft-img-med">
+                  <hr>
+                </div>
+                <div>
+                  <p class="op-text">ERNAKULAM<br> KOCHI</p>
+                </div>
+              </div>
+              <div class=" foter-child pt-5">
+                <div class="med-ft">
+                  <div class="hd-d ">
+                    <h6 class="cpt">main menu</h6>
+                  </div>
+                  <div class="p-2 ">
+                    <ul class="ul-ft ">
+                      <li class="lin-ht" ><a class="nav-link text-dark" href="#home">home</a></li class="lin-ht">
+                      <li class="lin-ht" ><a class="nav-link text-dark" href="#abot">about</a></li class="lin-ht">
+                      <li class="lin-ht" ><a class="nav-link text-dark" href="#shop">shop</a></li class="lin-ht">
+                      <li class="lin-ht" ><a class="nav-link text-dark" href="#help">help</a></li class="lin-ht">
+                    </ul>
+                  </div>
+                </div>
+                <div class="med-ft">
+                  <div class="hd-d"><h6 class="cpt">company</h6></div>
+                  <div class="">
+                    <ul class="ul-ft ">
+                      <li class="lin-ht"><a class="nav-link text-dark" href="#">the company</a></li class="lin-ht">
+                      <li class="lin-ht"><a class="nav-link text-dark" href="#">careers</a></li class="lin-ht">
+                      <li class="lin-ht"><a class="nav-link text-dark" href="#">press</a></li class="lin-ht">
+                      
+                    </ul>
+                  </div>
+                
+                </div>
+                <div class="med-ft">
+                  <div class="hd-d"><h6 class="cpt">discover</h6></div>
+                  <div class="">
+                    <ul class="ul-ft ">
+                      <li class="lin-ht" ><a class="nav-link text-dark" href="#">the team</a></li class="lin-ht">
+                      <li class="lin-ht"><a class="nav-link text-dark" href="#">our histoey</a></li class="lin-ht">
+                      <li class="lin-ht"><a class="nav-link text-dark" href="#">brand moto</a></li class="lin-ht">
+                      </ul>
+                  </div>
+                </div>
+                <div class="med-ft">
+                  <div class="hd-d"><h6 class="cpt">find us on</h6></div>
+                  <div class="">
+                    <ul class="ul-ft ">
+                      <li class="lin-ht "><a class="nav-link text-dark" href="#">facebook</a></li class="lin-ht">
+                      <li class="lin-ht "><a class="nav-link text-dark" href="#">twitter</a></li class="lin-ht">
+                      <li class="lin-ht"><a class="nav-link text-dark" href="#">instagram</a></li class="lin-ht">
+                      
+                    </ul>
+                  </div>
+                </div>
+        </div>
+        </div>
+
+
+</body>
+
+</html>
